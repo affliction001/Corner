@@ -8,7 +8,7 @@
 }
 
 .container {
-	background: url('https://tse4.mm.bing.net/th?id=OIP.nO-xdhmCGqjlqe0IiubOnAHaF7&pid=Api') repeat;
+	background: url('https://tse4.mm.bing.net/th?id=OIP.nO-xdhmCGqjlqe0IiubOnAHaF7&pid=Api') no-repeat center center / cover;
 	width: 100vw;
 	height: 100vh;
 	padding: 30px 10px;

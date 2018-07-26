@@ -6,15 +6,28 @@
 	<title>Git test</title>
 </head>
 <body>
-	<div class="inputs">
-		<label for="R">Радиус: </label>
-		<input type="text" id="R" placeholder="введите величину радиуса">
-		<label for="v">Угол: </label>
-		<input type="text" id="v" placeholder="введите величину угла">
-	</div>
-	<input id="button" type="button" value="Рассчитать расстояние">
-	<div class="1outputs">
-		<p>Растояние между точками равно: <span class="output"></span> mm</p>
+	<div class="container">
+
+		<div class="inputs">
+
+			<div class="in-1">
+				<label for="R">Радиус: </label>
+				<input type="text" id="R" placeholder="значение радиуса">
+			</div>
+
+			<div class="in-2">
+				<label for="v">Угол: </label>
+				<input type="text" id="v" placeholder="величина угла">
+			</div>
+
+		</div>
+
+		<input id="button" type="button" value="Рассчитать расстояние">
+
+		<div class="outputs">
+			<p>Растояние между точками равно: <span class="output"></span></p>
+		</div>
+
 	</div>
 
 	<script src="scripts.js"></script>
